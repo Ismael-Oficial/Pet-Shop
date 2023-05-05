@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="imgs/fav-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Agenda</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-navegacao">
+            <a href="index.html">Inicio</a>
+            <a href="product.html">Produtos</a>
+            <a href="calendar.html">Agenda</a>
+            <a href="adoption.html">Adoção</a>
+            <a href="contact.html">Fale Conosco</a>
+        </div>
+    </header>
+
+    <section>
+        <div class="content">
+            <div class="formulario">
+                <h3>Agenda Pet</h3>
+                <form>
+                    <input class="mensagem" type="text" placeholder="Digite seu Nome Completo" required>
+                    <input class="mensagem dual" type="text" placeholder="Digite o Nome do seu Pet" required>
+                    <select>
+                        <option value="select" selected>Qual é o animal que passará conosco?</option>
+                        <option value="dog">Cachorro</option>
+                        <option value="dog">Gato</option>
+                        <option value="dog">Hamster</option>
+                        <option value="dog">Coelho</option>
+                        <option value="dog">Passáro</option>
+                        <option value="dog">Outros</option>
+                    </select>
+                    <input class="mensagem" type="email" placeholder="E-mail para contato" required>
+                    <div class="dual">
+                        <input class="mensagem" type="date">
+                        <input class="mensagem" type="time">
+                    </div>
+                    <textarea class="mensagem" placeholder="Observações do pet"></textarea>
+                    <input class="mensagem btn-enviar" type="submit" value="Agendar">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
